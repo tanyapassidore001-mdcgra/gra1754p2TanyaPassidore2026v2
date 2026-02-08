@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gather + Graze | Charcuterie 101</title>
+<style type="text/css">
+@font-face{
+     font-family:"Farmhouse";
+     src:url("Farmhouse.otf") format("opentype");
+     font-weight:normal;
+     font-style:normal;
+}
+html{
+     font-size:16px;
+}
+body{
+     margin:0;
+     padding:0;
+     background-color:#7d823e;
+     background-image:url("char-backgound.png");
+     background-repeat:repeat;
+     background-position:top left;
+     font-family:"Farmhouse", "Bradley Hand", "Segoe Print", "Comic Sans MS", cursive;
+     color:#1b1b1b;
+     line-height:1.5;
+}
+.wrapper{
+     width:100%;
+     max-width:1366px;
+     display:block;
+     margin:0 auto;
+}
+
+.panel{
+    width:92%;
+    max-width:1140px;
+    background:#ffffff;
+    margin:20px auto 0;
+    box-shadow:0 12px 28px rgba(0,0,0,0.18);
+    overflow:auto;
+}
+
+.site{
+    width:92%;
+    margin:0 auto;
+    padding:2% 0 6%;
+}
+
+.hero{
+    width:100%;
+    margin:0 0 3%;
+}
+
+.hero img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.title{
+    font-size:1.8rem;
+    letter-spacing:0.07em;
+    text-transform:uppercase;
+    margin:1% 0 0.5%;
+    font-family:"Georgia", "Times New Roman", serif;
+}
+
+.subtitle{
+    font-size:2.4rem;
+    margin:0 0 2%;
+    color:#1b1b1b;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:3%;
+}
+
+.nav{
+    display:flex;
+    justify-content:flex-end;
+    gap:24px;
+    padding:10px 0 14px;
+}
+
+.nav a{
+    font-size:2rem;
+    text-transform:uppercase;
+    letter-spacing:0.12em;
+    color:#1b1b1b;
+    text-decoration:none;
+    font-family:"Farmhouse", "Bradley Hand", "Segoe Print", "Comic Sans MS", cursive;
+    transition:transform 120ms ease, text-decoration-color 120ms ease;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+    text-decoration:underline;
+    text-decoration-thickness:2px;
+    text-underline-offset:6px;
+    transform:scale(1.06);
+}
+
+.footer{
+    width:92%;
+    max-width:1140px;
+    background:#1b1b1b;
+    margin:20px auto 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px 12px;
+}
+
+.footer p{
+    margin:0;
+    color:#ffffff;
+    font-size:0.7rem;
+    line-height:1.4;
+    text-align:center;
+    padding:0 2%;
+}
+
+@media (max-width:32em){
+    .footer{
+        min-height:120px;
+        padding:16px 14px;
+    }
+    .footer p{
+        font-size:0.65rem;
+        line-height:1.45;
+    }
+}
+
+.card{
+    background:#f7f3ea;
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+    border:1px solid rgba(0,0,0,0.08);
+}
+
+.card img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.card .content{
+    padding:6%;
+}
+
+.card h3{
+    margin:0 0 0.5rem;
+    font-size:1.7rem;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+}
+
+.card p{
+    margin:0;
+    font-size:1.5rem;
+}
+
+@media (min-width:32em){
+    .title{
+        font-size:2.6rem;
+    }
+    .grid{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+@media (min-width:64em){
+    .title{
+        font-size:3.2rem;
+    }
+    .grid{
+        grid-template-columns:repeat(3, 1fr);
+    }
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="panel">
+        <div class="site">
+        <nav class="nav" aria-label="Primary">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#recipes">Recipes</a>
+        </nav>
+        <header class="hero">
+            <h1 class="title">Gather + Graze</h1>
+            <p class="subtitle">Charcuterie 101</p>
+			            <img src="banner.png" alt="Charcuterie board with seasonal ingredients">
+			<p> What You’ll Need: A wooden cutting board or serving tray,
+				Small bowls, 
+				Ramekin, 
+				Mini tongs,
+				Mini wooden spoons,
+				Tasting spoons,
+				Cheese knives,
+				Pedestal trays (for height) </p>
+
+        </header>
+
+        <section class="grid" aria-label="Charcuterie essentials">
+            <article class="card">
+                <img src="img1.png" alt="Soft cheeses and honey">
+                <div class="content">
+                    <h3>Step 1: TOOLS + UTENSILS</h3>
+                    <p>  Place your plates, ramekins, pedestal trays,
+Bowls, serving spoons, jam jars
+(olives, hummus, honey, mascarpone, 
+cornichons, spreads and dips).
+Add your utensils (cheese knives,
+forks, tongs, spoons, honey dipper, toothpicks)
+Add any labels/signage where needed.</p>
+                </div>
+            </article>
+            <article class="card">
+                <img src="img2.png" alt="Cured meats and herbs">
+                <div class="content">
+                    <h3>Step 2: CHEESES + MEATS</h3>
+                    <p>Choose 3 - 4 cheeses (soft, hard, semi-hard, 
+spreadable) burrata, mascarpone, havarti, 
+gruyere, manchego, gouda.
+Choose 3 - 4 meats like prosciutto, salami, 
+pate, soppressata, or mortadella.</p>
+                </div>
+            </article>
+            <article class="card">
+                <img src="img3.png" alt="Crunchy crackers">
+                <div class="content">
+                    <h3>Step 3: VEGGIES + FRUITS</h3>
+                    <p>Add fresh fruits like apples, pears, 
+Grapes, blackberries, and figs.
+Add in fresh veggies like tomatoes, 
+cucumber slices, broccoli,and baby carrots</p>
+                </div>
+            </article>
+            <article class="card">
+                <img src="img4.png" alt="Seasonal fruit">
+                <div class="content">
+                    <h3>Step 4: BREADS + SWEETS</h3>
+                    <p>Arrange crackers, pretzels, pita chips,
+crispbreads, and breadsticks
+Add in more sweets like dark chocolate, 
+dried fruit, jams, honey</p>
+                </div>
+            </article>
+            <article class="card">
+                <img src="img5.png" alt="Nuts and olives">
+                <div class="content">
+                    <h3>Step 5: DECORATE + GARNISH</h3>
+                    <p>In the remaining spaces add in your smaller 
+items like nuts (cashews, marcona almonds,
+walnuts, pecans) and then add garnishes (sprigs of 
+Rosemary, basil, or parsley) You can also add
+inedible decor like flowers or greenery.</p>
+                </div>
+            </article>
+            <article class="card">
+                <img src="img6.png" alt="Sweet accents">
+                <div class="content">
+                    <h3>SERVE + ENJOY!</h3>
+                    <p>Before serving, step back and adjust.
+Make sure everything feels balanced 
+(messy-but-intentional is the goal.)</p>
+                </div>
+            </article>
+        </section>
+        </div>
+		<footer class="footer">
+        <p>&copy; 2026, Tanya Passidore This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+    </footer>
+    </div>
+</div>
+</body>
+</html>
